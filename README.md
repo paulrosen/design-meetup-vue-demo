@@ -1,7 +1,7 @@
 # vue-demo
 
 ## Prerequisites
-```
+```bash
 # be sure that you have node installed - install from node.js website
 $ node -v
 v11.2.0
@@ -12,8 +12,10 @@ $ npm install -g @vue/cli
 ```
 
 ## Creating the project
+```bash
 $ cd design-meetup-vue-demo
 $ vue create vue-demo
+```
 - features: babel, router, css preprocessors, linter, vuex
 - use history mode
 - sass/css (w/dart)
@@ -22,7 +24,7 @@ $ vue create vue-demo
 - separate config files.
 
 ## Development Server
-```
+```bash
 $ cd design-meetup-vue-demo
 $ npm run serve
 ```
@@ -52,7 +54,7 @@ All the interesting things are under the `/src` folder.
 * Add page transitions.
 
 ## Compiles and minifies for production
-```
+```bash
 npm run build
 ```
 That will leave a static site that you can FTP to any public location.
